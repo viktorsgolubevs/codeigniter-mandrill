@@ -198,7 +198,7 @@ class Mandrill_Messages {
      *         - metadata struct any custom metadata provided when the message was sent
      *     - smtp_events array a log of up to 3 smtp events for the message
      *         - smtp_events[] struct information about a specific smtp event
-     *             - ts integer the Unix timestamp when the event occured
+     *             - ts integer the Unix timestamp when the event occurred
      *             - type string the message's state as a result of this event
      *             - diag string the SMTP response from the recipient's server
      */
@@ -264,7 +264,7 @@ class Mandrill_Messages {
      *     - metadata struct any custom metadata provided when the message was sent
      *     - smtp_events array a log of up to 3 smtp events for the message
      *         - smtp_events[] struct information about a specific smtp event
-     *             - ts integer the Unix timestamp when the event occured
+     *             - ts integer the Unix timestamp when the event occurred
      *             - type string the message's state as a result of this event
      *             - diag string the SMTP response from the recipient's server
      */
